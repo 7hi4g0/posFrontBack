@@ -1,0 +1,945 @@
+
+
+/*
+Author: Bootstrapthemes
+Author URI: http://www.xpeedstudio.com
+*/
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 6px 10px;
+        font-weight: 600;
+    }
+    .navbar-nav>li>a {
+        line-height: 50px;
+    }
+    h1 {
+        font-size:2.575rem;
+    }
+    .main-nav ul.nav > li > a {
+        padding: 0px 10px;
+    }
+
+    .home1_menu .call_us_area ul li {
+        padding: 0.5rem;
+    }
+    .home1_menu .call_us_area:after{
+        display: none;
+    }
+    .home1_menu .head_top_social_area:after{
+        border-right: 0px solid transparent;
+    }
+    nav.navbar.home2_menu.bootsnav ul.nav > li > a {
+        padding: 0rem .5rem;
+    }
+    .counter{
+        height: auto;
+    }
+    .main_mission .single_mission{
+        min-height: 417px;
+    }
+
+    .home1_main_mix_menu.main_mix_menu ul li {
+        width: 15%;
+    }
+
+    .request_quot_area.request_quot_area_home1 .heading_request h4 {
+        margin-bottom: 0;
+        font-size: 1.325rem;
+    }
+    #extrafeatures_accordion h6 {
+        background: #3c414c;
+        margin-bottom: 0rem;
+        font-size: .875rem;
+    }
+
+    .skillbar_top_img {
+        position: absolute;
+        left: -12%;
+        top: 3%;
+        width: 109%;
+        height: 36rem;
+        transform: rotate(90deg);
+        z-index: 90;
+    }
+    .js_graph_striped_y {
+        left: 37%;
+    }
+
+    .main_featured_home3 .f_service_img_right {
+        margin-top: 60%;
+        position: relative;
+    }
+    .main_contact_info.main_contact_info_home1 .contact_info_content .single_contact_info {
+        min-height: 170px;
+    }
+    .main_contact_info.main_contact_info_home2 .contact_info_content .single_contact_info {
+        min-height: 170px;
+    }
+
+    .pricing_body_border:after {
+        border-left: 9.1em solid transparent;
+        border-right: 9.1em solid transparent;
+        top: -65px;
+    }
+    .accordion {
+        font-size:0.825em;
+    }
+
+    .main_portfolio_area_home3 .single_mixi_portfolio {
+        margin-bottom: 20%;
+        height: 281px;
+    }
+    .main_portfolio_area_home3 .port_overfolio .s_team_overlay_border {
+        padding-top: 45%;
+    }
+    .call_us_area:after {
+        left: 15.95%;
+    }
+    .home2_main_team_area .head_title h2{
+        font-size:2rem;
+    }
+
+}
+
+
+@media (min-width: 991px) {
+    nav.navbar.home2_menu.bootsnav.navbar-mobile .navbar-collapse {
+        background: transparent !important;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    /*    nav{
+            background: transparent;
+         }*/
+
+    html {
+        font-size: 90%;
+    }
+
+    .h1 {
+        font-size:2.225rem;
+    }
+
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+
+    .home1_slider .home_slider_text h1{
+        font-size:2.125rem;
+    }
+
+    .home1_menu .attr-nav{
+        width: 0px;
+        margin-right: 0px;
+        top: -3.8rem;
+    }
+
+    .home1_menu .attr-nav form{
+        display: none;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        padding: 0px;
+    }
+
+    nav.navbar.home1_menu.bootsnav .navbar-header {
+        background: #fff;
+    }
+
+    .home1_menu.navbar>.container .navbar-brand {
+        top: -5px;
+    }
+
+    nav.small.home1_menu .head_top_social_area {
+        margin-top:-45px
+    }
+
+    nav.small.home1_menu .nav-top {
+        margin-top:-110px
+    }
+
+    .home1_menu .head_top_social_area {
+        display: none;
+    }
+
+    .home1_menu .nav-top {
+        display: none;
+    }
+
+    nav.small.home1_menu .main-nav{
+        margin-top:6.6%;
+    }
+
+    nav.small.home1_menu ul.nav {
+        padding-left: 35%;
+    }
+
+    nav.small.home1_menu .navbar-toggle {
+        margin-top: 0.5%;
+    }
+
+    nav {
+        height: 80px;
+        border-bottom: 0px solid transparent !important;
+    }
+
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 7px 12px;
+    }
+
+    .home1_menu .navbar-toggle i{
+        color:#000;
+    }
+
+    .home1_menu .main-nav-border{
+        display: none;
+    }
+
+    nav.navbar.home1_menu.bootsnav.navbar-fixed {
+        height: 80px;
+    }
+
+    nav.navbar.home1_menu.bootsnav.navbar-fixed.small {
+        height: 70px;
+    }
+
+    .home1_menu.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    /* End off nav menu home one */
+
+
+
+    .home3_menu .attr-nav{
+        width: 0px;
+        margin-right: 0px;
+        top: -3.8rem;
+    }
+    .home3_menu .attr-nav form{
+        display: none;
+    }
+
+    nav.navbar.home3_menu.bootsnav .navbar-header {
+        background: #fff;
+    }
+    .home3_menu.navbar>.container .navbar-brand {
+        top: 5px;
+    }
+    .home3_menu .navbar-brand {
+        padding: 0px 15px;
+        width: 240px;
+        top: 0px;
+        position: relative;
+        left: 0%;
+    }
+    nav.navbar.bootsnav .navbar-header {
+        padding-top: 10px;
+    }
+
+    nav.small.home3_menu .head_top_social_area {
+        margin-top:-45px
+    }
+    nav.small.home3_menu .nav-top {
+        margin-top:-110px
+    }
+    .home3_menu .head_top_social_area {
+        display: none;
+    }
+    .home3_menu .nav-top {
+        display: none;
+    }
+    nav.small.home3_menu .main-nav{
+        margin-top:6.6%;
+    }
+    nav.small.home3_menu ul.nav {
+        padding-left: 35%;
+    }
+    nav.small.home3_menu .navbar-toggle {
+        margin-top: 0.5%;
+    }
+    nav {
+        height: 80px;
+        border-bottom: 0px solid transparent !important;
+    }
+    .home3_menu .navbar-toggle i{
+        color:#000;
+    }
+    .home3_menu .main-nav-border{
+        display: none;
+    }
+    nav.navbar.home3_menu.bootsnav.navbar-fixed {
+        height: 80px;
+    }
+    nav.navbar.home3_menu.bootsnav.navbar-fixed.small {
+        height: 70px;
+    }
+    .home3_menu.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    /* End off nav menu home Three */
+
+    nav.navbar.home2_menu.bootsnav.navbar-fixed {
+        height: 80px;
+        background: #333;
+    }
+
+
+    .main_menu_bg{
+        background-color:transparent;
+    }
+
+    .home.home3banner, .home.home1banner {
+        margin-top: 80px;
+    }
+
+    .home{
+        margin-top:75px;
+    }
+    .ps_control_gray_lg .carousel-control.right{
+        left:50.2%;
+    }
+    .ps_control_gray_lg .carousel-control.left{
+        left:43.5%;
+    }
+
+    .main-nav{
+        height: auto;
+    }
+
+    .header .navbar-brand>img {
+        max-width: 70%;
+    }
+
+    .main_testimonial.home1_main_testimonial .carousel-control.left {
+        left: 77.5%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel-control.right{
+        right:10%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel_border {
+        width: 93%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel_border:before{
+        width:30%;
+    }
+    .main_testimonial .carousel_border:after {
+        width: 15%;
+    }
+    .fleetdetails_area .single_sidebar .sidebar_head:before{
+        top:45px;
+    }
+    .fleetdetails_area .single_sidebar .sidebar_head:after{
+        top:45px;
+    }
+    .home1_main_mix_menu.main_mix_menu {
+        margin-top: -72px;
+    }
+    .home1_main_mix_menu.main_mix_menu ul li {
+        width: 18%;
+    }
+    .home1_main_testimonial .home1_clogo_area{
+        margin-top:60px;
+        overflow: hidden;
+    }
+
+    .main_mission .single_mission {
+        min-height: 402px;
+    }
+
+
+    .home2menu.navbar-inverse{
+        background-color: rgba(0,0,0,0.85) !important;
+    }
+
+    .dividehr{
+        display: none;
+    }
+    .dividevr{
+        display: none;
+    }
+
+    .single_counter_right_text_home3{
+        margin-top:5rem;
+    }
+
+    .main_chooseus_area.main_chooseus_area_home3 .main_choose_content .choose_tabe_menu li a{
+        font-size: 1rem;
+    }
+
+    .main_portfolio_area_home3 .port_overfolio .s_team_overlay_border{
+        padding-top: 32%;
+    }
+    .main_featured_home3 .f_service_img_right{
+        margin-top: 123%;
+    }
+    .main_contact_info.main_contact_info_home1 .contact_info_content .single_contact_info {
+        padding: 1.5rem 0rem;
+        min-height: 170px;
+    }
+    .main_contact_info.main_contact_info_home2 .contact_info_content .single_contact_info {
+        padding: 1.5rem 0rem;
+        min-height: 170px;
+    }
+    .single_counter_right_text .progress_container_border:before {
+        left: 4%;
+        bottom: -32.6rem;
+    }
+    .main_testimonial.home2_main_testimonial .carousel-inner:before{
+        top:-45%;
+    }
+    .pricing_body_border:after {
+        border-left: 10.75em solid transparent;
+        border-right: 10.75em solid transparent;
+    }
+    .accordion-close span i {
+        position: relative;
+        top: -15px;
+    }
+    .accordion-open span i {
+        position: relative;
+        top: -15px;
+    }
+    .accordion {
+        font-size:0.725em;
+    }
+    .main_blog.main_blog_home3 .single_blog {
+        margin-bottom: 30px;
+    }
+    .request_quot_area.request_quot_area_home1 .heading_request h4{
+        margin-bottom: 0;
+        font-size:1.2rem;
+    }
+    .request_quot_area.request_quot_area_home1 .heading_request i {
+        padding-right: .5rem;
+        padding-bottom: .5rem;
+    }
+    .home1_slider .carousel-control.right {
+        left: 16%;
+    }
+    .main_featured .request_quot_area.request_quot_area_home1 {
+        margin-top: -50px;
+        overflow: hidden;
+    }
+    .main_featured_home1{
+        margin-bottom:120px;
+    }
+
+    .home2_main_team_area.main_team_area i.slick-arrow{
+        top:-19%;
+    }
+    .team.home2_team{
+        height: auto;
+    }
+    .main_chooseus_area_home3 .single_choose_text{
+        margin-top:30px;
+    }
+    .request_quot_area.request_quot_area_home3 {
+        left: 20%;
+        top: 10%;
+        width: 70%;
+    }
+    .main_weidget.main_weidget_home3 .single_weidget.get_update {
+        padding: 0px 0%; 
+        position: relative;
+        text-align: left; 
+    }
+    .service_tab .single_choose_text{
+        margin-top:30px;
+    }
+    .fleetdetails_content_midel .f_d_c_mid_text{
+        margin-top:20px;
+    }
+    .blog_post_content .single_blog .single_blog_text{
+        margin-top:20px;
+    }
+
+
+
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    p{
+        line-height: 2.2rem;
+    }
+    button.navbar-toggle i.fa {
+        color:#333;
+    }
+    .home2_slider_area h1{
+        font-size:2.5rem;
+    }
+    .home2_slider_area a.btn{
+        margin-top:10px;
+    }
+
+    .navbar-toggle {
+        margin-top: 3%;
+    }
+    nav.small .navbar-toggle {
+        margin-top: 1.4%;
+    }
+
+    .main-nav-border{
+        display: none;
+    }
+    .main-nav ul.nav > li > a {
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .head_top_social_area {
+        display: none;
+    }
+    .main-nav form{
+        display: none;
+    }
+    .nav-top {
+        display: none;
+    }
+    .head_title{
+        width:90%;
+    }
+    .slide_style_3 {
+        top: 10%;
+    }
+    .home1_slider .home_slider_text h1 {
+        font-size: 1.525rem;
+        line-height: 3rem;
+    }
+    .home_slider_text p {
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+    .home3_slider .home_slider_text {
+        width: 100%;
+    }
+    .home1_slider .carousel-inner .item img, 
+    .home3_slider .carousel-inner .item img {
+        height: 300px;
+    }
+    .home1_slider .overlay, 
+    .home3_slider .overlay{
+        height: 350px;
+    }
+    .home1_slider .carousel-control{
+        display: none;
+    }
+    .home1_slider .margin-top-20 {
+        margin-top: 0px;
+    }
+    .home1_slider a {
+        margin-bottom: 10px;
+    }
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .main_testimonial_home3 #quote-carousel .carousel-indicators li{
+        width:4rem;
+        height: 4rem;
+    }
+    .main_testimonial_home3 #quote-carousel .carousel-indicators li.active{
+        width:5rem;
+        height: 5rem;
+    }
+    .main_testimonial_home3 #quote-carousel .carousel-indicators {
+        bottom: -85px;
+    }
+    .main_testimonial_home3 #quote-carousel .carousel-control.left {
+        top: -5%;
+    }
+    .main_testimonial_home3 #quote-carousel .carousel-control.right {
+        top: -5%;
+    }
+
+    .skillbar {
+        margin-bottom: 35px;
+        width: 240px;
+        height: 50px;
+        left: 30%;
+    }
+    .skillbar_top_img {
+        left: 30%;
+        top: 54%;
+        width: 80%;
+        height: 55px;
+    }
+    .skillbar-title span {
+        height: 50px;
+        line-height: 50px;
+    }
+    .skillbar_top_img .skillbar_img_item{
+        width:15.5%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel_border {
+        width: 90%;
+        padding: 5rem 2rem;
+    }
+    .main_testimonial .carousel-control.right{
+        right:16%;
+        top:93%;
+    }
+    .main_testimonial .carousel-control.left {
+        left: 71%;
+        top:93%;
+    }
+    .f_service_area .f_single_service{
+        margin-bottom:10%;
+    }
+    .request_quot_area{
+        margin-bottom: 20%;
+    }
+    .main_home2 .request_quot_area{
+        margin-bottom: 0%;
+    }
+
+    .request_quot_area.request_quot_area_home3 {
+        left: 8%;
+        top: 10%;
+        width: 85%;
+    }
+    .counter{
+        height: auto;
+    }
+    .counter.counter_home1{
+        height: auto;
+    }
+    .single_counter_item{
+        text-align: center;
+    }
+    .single_count_icon img {
+        margin-bottom: 15px;
+    }
+
+    .main_chooseus_area .main_choose_content .single_choose_video{
+        margin-top:5%;
+    }
+
+    .main_blog .single_blog{
+        margin-top:5%;
+    }
+
+    .single_widget{
+        margin-bottom: 20px
+    }
+    .main_weidget.main_weidget_home3 .single_weidget.get_update{
+        text-align: left;
+        padding: 0;
+    }
+    .fleetdetails_area .single_sidebar form input[type='submit']{
+        padding: .9rem 1rem;
+    }
+    .fleetdetails_area .single_sidebar .sidebar_head:after{
+        top:39px;
+    }  
+    .fleetdetails_area .single_sidebar .sidebar_head:before{
+        top:39px;
+    }
+    .blog_single_area .single_post_video{
+        margin-bottom: 3%;
+    }
+    .sidebar_wraper{
+        margin-top:10%;
+    }    
+    .main_testimonial.home1_main_testimonial .carousel-control.right{
+        right:15%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel-control.left{
+        left:70%;
+    }
+    .home1_main_mix_menu.main_mix_menu ul li {
+        width: 50%;
+    }
+    .home1_main_mix_menu.main_mix_menu {
+        margin-top: -94px;
+    }
+    .featured_bottom_bg {
+        height: 1400px;
+    }
+    .main_chooseus_area.main_chooseus_area_home3 .main_choose_content .tab-content{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px !important;
+    }
+
+    .home2_main_pricing_area .pricing_border{
+        left:39.5%;
+    }
+    .team.home2_team{
+        height: auto;
+    }
+    .home2_main_team_area.main_team_area i.slick-arrow{
+        top: -75px;
+    }
+
+    .main_portfolio_area_home3 .single_mixi_portfolio{
+        margin-top: 2rem;
+    }
+    .main_portfolio_area_home3 .single_mixi_portfolio{
+        height: auto;
+    }
+    .main_portfolio_area_home3 .single_mixi_portfolio img {
+        height: auto;
+    }    
+    .main_featured_home3 .f_service_img_right{
+        margin-top: 0%;
+    }
+    .ps_control_bsquare .carousel-control {
+        padding-top: 2.4%;
+    }
+    .single_counter_right_text .progress_container_border:before {
+        display: none;
+    }
+    .main_testimonial.home2_main_testimonial .carousel-inner:before{
+        display: none;
+    }
+    .pricing_body_border {
+        position: relative;
+        top: -20px;
+        display: none !important;
+    }
+
+    .accordion-close span i {
+        position: relative;
+        top: 0px;
+    }
+    .accordion-open span i {
+        position: relative;
+        top: 0px;
+    }
+    div.content .divis_hidden{
+        display: none;
+    }
+    .request_quot_area.request_quot_area_home1 .heading_request h4{
+        margin-bottom: 0;
+        font-size:1.625rem;
+    }
+    .request_quot_area.request_quot_area_home1 .heading_request i {
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    #extrafeatures_accordion h6 a {
+        background: url(../images/pluseminus2.png) no-repeat 98% 10px;
+    }
+
+
+
+    .main_about_benner .single_about_benner{
+        width:80%;
+    }
+
+}
+
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+    .home1_slider .home_slider_text h1 {
+        font-size: 1.225rem;
+    }
+    .home1_slider .home_slider_text .margin-top-40 {
+        margin-top:0;
+    }
+    .home1_slider .home_slider_text .m-r-15 {
+        margin-right:0;
+    }
+
+    .slider_home2 i.nextprevleft{
+        top:100px;
+    }
+
+    .slider_home2 i.nextprevright{
+        top:100px;
+    }
+
+    .kenburns_062_slide {
+        top: 20%;
+    }
+
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        width: 100%;
+    }
+
+    .header .navbar-brand>img {
+        max-width: 70%;
+    }
+
+    .service_border_raund {
+        left: 30%;
+    }
+
+    .main_testimonial .carousel-control.right{
+        right:1%;
+        top:93%;
+    }
+
+    .main_testimonial .carousel-control.left {
+        left: 40%;
+        top:93%;
+    } 
+
+    .fleetdetails_area .single_sidebar .sidebar_head:before{
+        top:32px;
+    }
+    .fleetdetails_area .single_sidebar .sidebar_head:after{
+        top:32px;
+    }
+
+    .pricing_body_border {
+        position: relative;
+        top: -20px;
+        display: none !important;
+    }
+
+    .home2_main_pricing_area .pricing_border{
+        left:35.5%;
+    }
+
+    .main_testimonial.home1_main_testimonial .carousel-control.left {
+        left: 66%;
+    }
+
+    .featured_bottom_bg {
+        height: 1250px;
+    }
+    #extrafeatures_accordion h6 a {
+        background: url(../images/pluseminus2.png) no-repeat 98% 7px;
+        padding-left: 10px;
+        font-size: 0.875rem;
+    }
+
+    .home3_slider .home_slider_text h1{
+        font-size:2.525rem;
+    }
+    .home2_main_team_area.main_team_area i.slick-arrow{
+        display: none !important;
+    }
+
+
+}
+
+@media (max-width: 579px) {
+    .main_testimonial .carousel-control.right{
+        right:14%;
+        top:93%;
+    }
+
+    .main_testimonial .carousel-control.left {
+        left: 69%;
+        top:93%;
+    } 
+
+    .label_img{
+        display: none;
+    }
+
+    .progress-vertical {
+        width: 35px;
+        margin-right: 15px;
+    }
+
+    .progress-vertical .label {
+        width: 35px;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 310px) and (max-width:700px){
+    .skillbar_top_img{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        width: 100%;
+    }
+    .fleetdetails_area .single_sidebar .sidebar_head:before{
+        top:30px;
+    }
+    .fleetdetails_area .single_sidebar .sidebar_head:after{
+        top:30px;
+    }
+
+    .home2_main_pricing_area .pricing_border {
+        left: 26.5%;
+    }
+
+
+    .main_testimonial.home1_main_testimonial .carousel_border:before {
+        width: 45%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel-control.left {
+        left: 59%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel-control.right {
+        right: 17%;
+    }
+    .main_testimonial.home1_main_testimonial .carousel_border:after {
+        top: -25px;
+        width: 17%;
+    }
+
+    .home1_main_testimonial .cline-logo-carousel-indicators li {
+        height: 100px;
+        line-height: 70px;
+    }
+    .featured_bottom_bg {
+        height: 1000px;
+    }
+
+
+    .skillbar_top_img{
+        display: none;
+    }
+    .progress-vertical {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .progress-vertical .label {
+        width: 30px;
+        font-size: 11px;
+    }
+
+
+
+
+}
+
