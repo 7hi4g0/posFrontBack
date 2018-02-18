@@ -18,19 +18,24 @@ jQuery( document ).ready( function () {
         $( "#errormessage" ).slideUp( 750, function () {
             $( '#errormessage' ).hide();
             $.post( action, {
-                fname: $( '#fname' ).val(),
-                lname: $( '#lname' ).val(),
+                nome: $( '#nome' ).val(),
                 email: $( '#email' ).val(),
-                phone: $( '#phone' ).val(),
-                message: $( '#message' ).val()
+                data_nasc: $( '#data_nasc' ).val(),
+                profissao: $( '#profissao' ).val(),
+                empresa: $( '#empresa' ).val(),
+                rua: $( '#rua' ).val(),
+                bairro: $( '#bairro' ).val(),
+                cidade: $( '#cidade' ).val(),
+                estado: $( '#estado' ).val(),
+                cep: $( '#cep' ).val()
             },
-            function ( data ) {
+            function ( data, status ) {
                     document.getElementById( 'errormessage' ).innerHTML = data;
                     $( '#errormessage' ).slideDown( 'slow' );
                 $( '#submit' ).removeAttr( 'disabled' );
                 if ( data.match( 'success' ) != null )
                     $( '#contactform' ).slideUp( 'slow' );
-
+                console.log(status);
             }
             );
 
